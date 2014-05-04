@@ -2,9 +2,9 @@
  * @class
  * @classdesc Description of class here
  */
-var GeoEngine = function(){
+var GippiEs = function(){
     /**
-     * @namespace GeoEngine
+     * @namespace GippiEs
      * @property {boolean} isTracking 
      * @property {number} speed
      * @property {number} height
@@ -58,7 +58,7 @@ var GeoEngine = function(){
         /**
          * position event.
          *
-         * @event GeoEngine#position
+         * @event GippiEs#position
          * @type {object}
          * @property {number} time timestamp of data
          * @property {object} .... something
