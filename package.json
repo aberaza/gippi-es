@@ -6,11 +6,12 @@
     "main" : "./src/gippi-es.js",
     "license" : "MIT",
     "scripts" : {
-        "test" : "jasmine-node tests"
+        "test" : "karma start"
     },
     "dependencies" : {
     },
     "devDependencies" : {
+        "karma-cli" : "*",
         "karma" : "*",
         "karma-jasmine" : "*",
         "karma-phantomjs-launcher" : "*"
