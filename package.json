@@ -5,6 +5,9 @@
     "author" : "Aritz Beraza",
     "main" : "./src/gippi-es.js",
     "license" : "MIT",
+    "scripts" : {
+        "test" : "jasmine-node tests"
+    },
     "dependencies" : {
     },
     "devDependencies" : {
