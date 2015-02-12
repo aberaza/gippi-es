@@ -11,7 +11,9 @@
     "dependencies" : {
     },
     "devDependencies" : {
-        "jasmine-node" : "*"
+        "karma" : "*",
+        "karma-jasmine" : "*",
+        "karma-phantomjs-launcher" : "*"
     }
 
 }

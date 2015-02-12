@@ -1,4 +1,3 @@
-
 describe("When library is loaded ", function(){
     it("GippiEs class is available", function(){
         expect(GippiEs).toBeDefined();
@@ -11,7 +10,7 @@ describe("When library is loaded ", function(){
 });
 
 describe("Second tests here", function(){
-    it("fails always", function(){
-        expect(true).toBeFalsy();
+    it("works... no mather what", function(){
+        expect(false).toBeFalsy();
     });
 });
