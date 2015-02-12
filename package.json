@@ -1,0 +1,20 @@
+{
+    "name" : "gippi-es",
+    "description" : "Library to improve the native geolocation API with coordinates conversions, projections and events as well as extra data like vertical speed, acceleration, etc.",
+    "version" : "0.0.0",
+    "author" : "Aritz Beraza",
+    "main" : "./src/gippi-es.js",
+    "license" : "MIT",
+    "scripts" : {
+        "test" : "karma start"
+    },
+    "dependencies" : {
+    },
+    "devDependencies" : {
+        "karma-cli" : "*",
+        "karma" : "*",
+        "karma-jasmine" : "*",
+        "karma-phantomjs-launcher" : "*"
+    }
+
+}
